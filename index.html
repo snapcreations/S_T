@@ -1,0 +1,2531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Vysyaraju Jewellers - Special Tag</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 75%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    zoom: 0.76;
+}
+
+
+/* =====================================================
+   INPUT / SELECT
+===================================================== */
+
+input,
+select {
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    border-color: #c39a4e !important;
+
+    box-shadow:
+        0 0 0 2px rgba(195,154,78,.12);
+}
+
+
+/* =====================================================
+   MAIN LAYOUT
+===================================================== */
+
+.main-layout {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        260px minmax(0, 850px);
+
+    gap: 8px;
+
+    align-items: start;
+}
+
+
+/* =====================================================
+   LEFT ENTRY
+===================================================== */
+
+.entry-section {
+    width: 260px;
+    min-width: 260px;
+}
+
+
+/* =====================================================
+   RIGHT DETAILS
+===================================================== */
+
+.details-section {
+    width: 800px;
+    max-width: 100%;
+    min-width: 0;
+}
+
+
+/* =====================================================
+   TABLE AREA
+===================================================== */
+
+.table-scroll {
+    width: 100%;
+
+    max-width: 100%;
+
+    max-height: calc(100vh - 190px);
+
+    overflow-x: auto;
+    overflow-y: auto;
+
+    scrollbar-width: thin;
+}
+
+
+/* =====================================================
+   TABLE
+===================================================== */
+
+.table-scroll table {
+    min-width: 1100px;
+}
+
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+.table-scroll::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+    background: #f4f1ea;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+    background: #c39a4e;
+    border-radius: 10px;
+}
+
+
+/* =====================================================
+   INVALID
+===================================================== */
+
+.invalid {
+    border-color: #dc2626 !important;
+    background: #fff5f5 !important;
+}
+
+
+/* =====================================================
+   STATUS
+===================================================== */
+
+.status {
+    display: none;
+}
+
+.status.show {
+    display: block;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.action-btn {
+    transition: .15s ease;
+}
+
+.action-btn:hover {
+    transform: translateY(-1px);
+}
+
+button:disabled {
+    opacity: .6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+
+/* =====================================================
+   TABLE
+===================================================== */
+
+table {
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    white-space: nowrap;
+}
+
+
+/* =====================================================
+   FULL WIDTH
+===================================================== */
+
+header,
+main {
+    width: 100%;
+}
+
+
+/* =====================================================
+   IMPORTANT
+   KEEP SAME TWO-COLUMN LAYOUT ON ALL DEVICES
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .main-layout {
+        grid-template-columns:
+            260px minmax(0, 850px);
+
+        gap: 8px;
+    }
+
+    .entry-section {
+        width: 260px;
+    }
+
+    .details-section {
+        width: 850px;
+    }
+
+    /*
+       Only the DETAILS TABLE scrolls horizontally.
+       The complete page does not create horizontal
+       scrolling.
+    */
+
+    .table-scroll {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body class="min-h-screen bg-[#f4f1ea] text-[#1e2440]">
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="bg-[#1e2440] text-white text-center px-4 py-3 shadow-md">
+
+ <div class="relative flex items-center justify-center">
+
+        <!-- HOME BUTTON -->
+        <a
+            href="https://ramakrishna632.github.io/Employe_Support_Sheet/"
+            class="absolute left-0 top-1/2 -translate-y-1/2
+                   flex items-center gap-1
+                   bg-[#c39a4e] text-[#1e2440]
+                   px-3 py-1.5
+                   rounded-md
+                   text-xs font-bold
+                   shadow-sm
+                   transition
+                   hover:bg-[#d9b978]
+                   hover:-translate-y-[55%]"
+        >
+            <span class="text-sm">⌂</span>
+            HOME
+        </a>
+
+
+<h1 class="text-xl md:text-2xl font-bold tracking-wide">
+<!-- <h1>VYSYARAJU JEWELLERS PVT. LTD.</h1> -->
+      Special_Tag 
+</h1>
+
+<!-- <p class="text-[#d9b978] text-xs md:text-sm mt-1">
+Special_Tag 
+</p> -->
+
+</header>
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main class="max-w-[1500px] mx-auto px-2 md:px-3 py-3">
+
+<div
+class="main-layout grid grid-cols-[280px_minmax(0,1fr)] gap-3 items-start"
+>
+
+
+<!-- =====================================================
+     LEFT SIDE
+===================================================== -->
+
+<section
+class="bg-white border border-[#ddd4c2] rounded-lg p-3 shadow-sm"
+>
+
+
+<div
+class="flex items-center justify-between border-b-2 border-[#c39a4e] pb-2 mb-3"
+>
+
+<h2 class="text-base font-bold">
+ENTRY INPUT
+</h2>
+
+</div>
+
+
+<!-- =====================================================
+     MONTH
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="month"
+class="block text-[11px] font-bold mb-0.5"
+>
+MONTH
+<span class="text-red-600">*</span>
+</label>
+
+<select
+id="month"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs bg-white"
+>
+
+<option value="">Select Month</option>
+
+<option value="JANUARY">JANUARY</option>
+<option value="FEBRUARY">FEBRUARY</option>
+<option value="MARCH">MARCH</option>
+<option value="APRIL">APRIL</option>
+<option value="MAY">MAY</option>
+<option value="JUNE">JUNE</option>
+<option value="JULY">JULY</option>
+<option value="AUGUST">AUGUST</option>
+<option value="SEPTEMBER">SEPTEMBER</option>
+<option value="OCTOBER">OCTOBER</option>
+<option value="NOVEMBER">NOVEMBER</option>
+<option value="DECEMBER">DECEMBER</option>
+
+</select>
+
+</div>
+
+
+<!-- =====================================================
+     CC
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="cc"
+class="block text-[11px] font-bold mb-1"
+>
+CC
+<span class="text-red-600">*</span>
+</label>
+
+<select
+id="cc"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs bg-white"
+>
+
+<option value="">Select CC</option>
+
+<option>AKP</option>
+<option>ASM</option>
+<option>DSN</option>
+<option>GPT</option>
+<option>GWK</option>
+<option>KKD</option>
+<option>MDW</option>
+<option>PBJ</option>
+<option>PVP</option>
+<option>RJM</option>
+<option>SMG</option>
+<option>TGP</option>
+<option>TUN</option>
+<option>VJA</option>
+<option>VJM</option>
+<option>VZM</option>
+
+</select>
+
+</div>
+
+
+<!-- =====================================================
+     METAL
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="metal"
+class="block text-[11px] font-bold mb-1"
+>
+METAL
+<span class="text-red-600">*</span>
+</label>
+
+<select
+id="metal"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs bg-white"
+>
+
+<option value="">
+Select Metal
+</option>
+
+<option value="Silver Jewellery">
+Silver Jewellery
+</option>
+
+<option value="MRP">
+MRP
+</option>
+
+<option value="SILVER">
+SILVER
+</option>
+
+<option value="GOLD">
+GOLD
+</option>
+
+<option value="DIAMOND">
+DIAMOND
+</option>
+
+<option value="PLATINUM">
+PLATINUM
+</option>
+
+</select>
+
+</div>
+
+
+<!-- =====================================================
+     TAG NO
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="tagNo"
+class="block text-[11px] font-bold mb-1"
+>
+
+TAG NO.
+<span class="text-red-600">*</span>
+
+</label>
+
+<input
+id="tagNo"
+type="text"
+autocomplete="off"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs"
+placeholder="Enter Tag No."
+>
+
+</div>
+
+
+<!-- =====================================================
+     PRODUCT
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="product"
+class="block text-[11px] font-bold mb-1"
+>
+
+Product
+<span class="text-red-600">*</span>
+
+</label>
+
+<select
+id="product"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs bg-white"
+>
+
+<option value="">
+Select Product
+</option>
+
+<option>BANGLES</option>
+<option>BLACK BEEDS</option>
+<option>BRACELET</option>
+<option>CHAIN</option>
+<option>FINGER RING</option>
+<option>HANGINGS</option>
+<option>HARAM</option>
+<option>JADA</option>
+<option>JADA GANTALU</option>
+<option>KADA</option>
+<option>MATIES</option>
+<option>NECKLACE</option>
+<option>PENDENT</option>
+<option>VADDANAM</option>
+<option>VANKI</option>
+<option>PAPIDI CHAIN</option>
+<option>PUSTELU</option>
+
+</select>
+
+</div>
+
+
+<!-- =====================================================
+     EMP ID
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="empId"
+class="block text-[11px] font-bold mb-1"
+>
+
+EMP ID
+<span class="text-red-600">*</span>
+
+<span class="font-normal text-gray-500">
+(Numbers only)
+</span>
+
+</label>
+
+<input
+id="empId"
+type="text"
+inputmode="numeric"
+autocomplete="off"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs"
+placeholder="Enter Employee ID"
+>
+
+<div
+id="empLoading"
+class="hidden text-[10px] text-blue-600 mt-1"
+>
+Searching employee...
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     EMP NAME
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="empName"
+class="block text-[11px] font-bold mb-1"
+>
+
+EMP NAME
+<span class="text-red-600">*</span>
+
+</label>
+
+<input
+id="empName"
+type="text"
+autocomplete="off"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs"
+placeholder="Employee Name"
+>
+
+</div>
+
+
+<!-- =====================================================
+     MGR ID
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="mgrId"
+class="block text-[11px] font-bold mb-1"
+>
+
+MGR ID
+<span class="text-red-600">*</span>
+
+<span class="font-normal text-gray-500">
+(Numbers only)
+</span>
+
+</label>
+
+<input
+id="mgrId"
+type="text"
+inputmode="numeric"
+autocomplete="off"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs"
+placeholder="Enter Manager ID"
+>
+
+<div
+id="mgrLoading"
+class="hidden text-[10px] text-blue-600 mt-1"
+>
+Searching manager...
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     MGR NAME
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="mgrName"
+class="block text-[11px] font-bold mb-1"
+>
+
+MGR NAME
+<span class="text-red-600">*</span>
+
+</label>
+
+<input
+id="mgrName"
+type="text"
+autocomplete="off"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs"
+placeholder="Manager Name"
+>
+
+</div>
+
+
+<!-- =====================================================
+     GR WEIGHT
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="grWeight"
+class="block text-[11px] font-bold mb-1"
+>
+Gr Weight
+</label>
+
+<input
+id="grWeight"
+type="number"
+min="0"
+step="any"
+inputmode="decimal"
+autocomplete="off"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs"
+placeholder="0.000"
+>
+
+</div>
+
+
+<!-- =====================================================
+     NET WEIGHT
+===================================================== -->
+
+<div class="mb-2">
+
+<label
+for="netWeight"
+class="block text-[11px] font-bold mb-1"
+>
+Net Weight
+</label>
+
+<input
+id="netWeight"
+type="number"
+min="0"
+step="any"
+inputmode="decimal"
+autocomplete="off"
+class="w-full h-[30px] px-2 border border-[#cfc8bb] rounded text-xs"
+placeholder="0.000"
+>
+
+</div>
+
+
+<!-- =====================================================
+     BUTTONS
+===================================================== -->
+
+<div class="flex gap-2 mt-3">
+
+<button
+type="button"
+id="addBtn"
+onclick="addRecord()"
+class="action-btn flex-1 bg-[#c39a4e] text-[#1e2440] rounded px-3 py-2 text-xs font-bold"
+>
+ADD
+</button>
+
+<button
+type="button"
+onclick="clearForm()"
+class="action-btn flex-1 bg-gray-200 text-gray-700 rounded px-3 py-2 text-xs font-bold"
+>
+CLEAR
+</button>
+
+</div>
+
+
+<!-- =====================================================
+     STATUS
+===================================================== -->
+
+<div
+id="status"
+class="status mt-2 p-2 rounded text-[11px]"
+></div>
+
+</section>
+
+
+<!-- =====================================================
+     RIGHT SIDE
+===================================================== -->
+
+<section
+class="bg-white border border-[#ddd4c2] rounded-lg p-3 shadow-sm min-w-0"
+>
+
+
+<div
+class="flex items-center justify-between border-b-2 border-[#c39a4e] pb-2 mb-2"
+>
+
+<h2 class="text-base font-bold">
+EMPLOYE WISE SPLIT
+</h2>
+
+<span
+id="count"
+class="text-[#c39a4e] font-bold text-xs"
+>
+0 Records
+</span>
+
+</div>
+
+
+<!-- =====================================================
+     TABLE
+===================================================== -->
+
+<div
+class="table-scroll overflow-x-auto border border-[#ddd4c2] rounded"
+>
+
+<table
+class="w-full border-collapse"
+style="min-width:800px;"
+>
+
+<thead>
+
+<tr class="bg-[#1e2440] text-white">
+
+<th class="px-0 py-2 text-[10px]">
+    
+MONTH
+</th>
+
+<th class="px-0.5 py-2 text-[10px]">
+CC
+</th>
+
+<th class="px-2 py-2 text-[10px]">
+METAL
+</th>
+
+<th class="px-2 py-2 text-[10px]">
+TAG NO.
+</th>
+
+<th class="px-2 py-2 text-[10px]">
+PRODUCT
+</th>
+
+<th class="px-0.5 py-0.5 text-[10px]">
+EMP ID
+</th>
+
+<th class="px-0.5 py-0.5 text-[10px]">
+EMP NAME
+</th>
+
+<th class="px-2 py-0.5 text-[10px]" >
+MGR ID
+
+</th>
+
+<th class="px-0 py-2 text-[10px]">
+MGR NAME
+</th>
+
+<th class="px-2 py-2 text-[10px]">
+GR WT.
+</th>
+
+<th class="px-2 py-2 text-[10px]">
+NET WT.
+</th>
+
+<th class="px-0 py-2 text-[10px]">
+ACTION
+</th>
+
+</tr>
+
+</thead>
+
+
+<tbody id="recordsBody">
+
+<tr>
+
+<td
+colspan="12"
+class="text-center py-4 text-gray-400 text-xs"
+>
+
+No records added.
+Enter details on the left and click ADD.
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- =====================================================
+     SAVE ALL
+===================================================== -->
+
+<div class="flex justify-end mt-3">
+
+<button
+type="button"
+id="saveAllBtn"
+onclick="saveAll()"
+class="action-btn bg-[#1e2440] text-white rounded px-5 py-2 text-xs font-bold"
+>
+
+SAVE ALL
+
+</button>
+
+</div>
+
+</section>
+
+</div>
+
+</main>
+
+
+<script>
+
+/* =====================================================
+   API URLS
+===================================================== */
+
+
+/* -----------------------------------------------------
+   EMPLOYEE DATABASE API
+----------------------------------------------------- */
+
+const EMP_DATABASE_API =
+"https://script.google.com/macros/s/AKfycbyyLBhj0uMPh-eaYdePAv2AUGuzlvL61jixeicF6Uu9-jDdL5BaMzWH5l0mSyXe6EDWWQ/exec";
+
+
+/* -----------------------------------------------------
+   SPECIAL TAG DATABASE API
+----------------------------------------------------- */
+
+const SPECIAL_TAG_API =
+"https://script.google.com/macros/s/AKfycbxhhjGBkFEZvprIeh0IgdUeqCvX9b8Q69WffY9GFgaO4Bb2tVp7Qq7sVGvhrBS6-bQLug/exec";
+
+
+/* =====================================================
+   GLOBAL VARIABLES
+===================================================== */
+
+let employeeDatabase = [];
+
+let records = [];
+
+let editIndex = -1;
+
+
+/* =====================================================
+   SHORT DOM
+===================================================== */
+
+const $ = function(id) {
+
+    return document.getElementById(id);
+
+};
+
+
+/* =====================================================
+   FORM FIELDS
+===================================================== */
+
+const fields = [
+
+    "month",
+    "cc",
+    "metal",
+    "tagNo",
+    "product",
+    "empId",
+    "empName",
+    "mgrId",
+    "mgrName",
+    "grWeight",
+    "netWeight"
+
+];
+
+
+/* =====================================================
+   EMPLOYEE ID INPUT
+===================================================== */
+
+$("empId").addEventListener(
+    "input",
+    function() {
+
+        this.value =
+            this.value.replace(
+                /[^0-9]/g,
+                ""
+            );
+
+        lookupEmployee();
+
+    }
+);
+
+
+/* =====================================================
+   MANAGER ID INPUT
+===================================================== */
+
+$("mgrId").addEventListener(
+    "input",
+    function() {
+
+        this.value =
+            this.value.replace(
+                /[^0-9]/g,
+                ""
+            );
+
+        lookupManager();
+
+    }
+);
+
+
+/* =====================================================
+   EMPLOYEE LOOKUP
+===================================================== */
+
+async function lookupEmployee() {
+
+    const empId =
+        $("empId").value.trim();
+
+
+    $("empName").value = "";
+
+
+    if (!empId) {
+
+        $("empLoading")
+            .classList
+            .add("hidden");
+
+        return;
+
+    }
+
+
+    $("empLoading")
+        .classList
+        .remove("hidden");
+
+
+    const employee =
+        findEmployeeById(
+            empId
+        );
+
+
+    setTimeout(
+        function() {
+
+            $("empLoading")
+                .classList
+                .add("hidden");
+
+
+            if (employee) {
+
+                $("empName").value =
+                    employee.employeeName || "";
+
+            }
+
+        },
+        100
+    );
+
+}
+
+
+/* =====================================================
+   MANAGER LOOKUP
+===================================================== */
+
+async function lookupManager() {
+
+    const mgrId =
+        $("mgrId").value.trim();
+
+
+    $("mgrName").value = "";
+
+
+    if (!mgrId) {
+
+        $("mgrLoading")
+            .classList
+            .add("hidden");
+
+        return;
+
+    }
+
+
+    $("mgrLoading")
+        .classList
+        .remove("hidden");
+
+
+    const manager =
+        findEmployeeById(
+            mgrId
+        );
+
+
+    setTimeout(
+        function() {
+
+            $("mgrLoading")
+                .classList
+                .add("hidden");
+
+
+            if (manager) {
+
+                $("mgrName").value =
+                    manager.employeeName || "";
+
+            }
+
+        },
+        100
+    );
+
+}
+
+
+/* =====================================================
+   LOAD EMPLOYEE DATABASE
+===================================================== */
+
+async function loadEmployeeDatabase() {
+
+    try {
+
+        const response =
+            await fetch(
+                EMP_DATABASE_API
+            );
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "HTTP error: " +
+                response.status
+            );
+
+        }
+
+
+        const result =
+            await response.json();
+
+
+        console.log(
+            "Employee Database:",
+            result
+        );
+
+
+        if (!result.success) {
+
+            throw new Error(
+                result.error ||
+                "Employee database error."
+            );
+
+        }
+
+
+        employeeDatabase =
+            Array.isArray(
+                result.data
+            )
+                ? result.data
+                : [];
+
+
+        console.log(
+            "Employee records loaded:",
+            employeeDatabase.length
+        );
+
+    }
+
+
+    catch(error) {
+
+        console.error(
+            "Employee database error:",
+            error
+        );
+
+        employeeDatabase = [];
+
+    }
+
+}
+
+
+/* =====================================================
+   FIND EMPLOYEE BY ID
+===================================================== */
+
+function findEmployeeById(empId) {
+
+    const searchId =
+        String(
+            empId || ""
+        )
+        .trim()
+        .toLowerCase();
+
+
+    if (!searchId) {
+
+        return null;
+
+    }
+
+
+    return employeeDatabase.find(
+        function(employee) {
+
+            return String(
+                employee.empId || ""
+            )
+            .trim()
+            .toLowerCase()
+            === searchId;
+
+        }
+    ) || null;
+
+}
+
+
+/* =====================================================
+   WEIGHT FUNCTION
+===================================================== */
+
+function getWeight(id) {
+
+    const value =
+        $(id).value.trim();
+
+
+    /* ---------------------------------------------------
+       EMPTY IS ALLOWED
+    --------------------------------------------------- */
+
+    if (!value) {
+
+        return "";
+
+    }
+
+
+    const number =
+        Number(value);
+
+
+    /* ---------------------------------------------------
+       INVALID NUMBER
+    --------------------------------------------------- */
+
+    if (
+        !Number.isFinite(number) ||
+        number < 0
+    ) {
+
+        return "";
+
+    }
+
+
+    /* ---------------------------------------------------
+       KEEP THE ORIGINAL USER INPUT
+       
+       Examples:
+       2
+       2.0
+       2.000
+       1.250
+       0.000
+       --------------------------------------------------- */
+
+    return value;
+
+}
+
+
+/* =====================================================
+   ESCAPE HTML
+===================================================== */
+
+function esc(value) {
+
+    return String(
+        value ?? ""
+    )
+    .replace(
+        /[&<>"']/g,
+        function(m) {
+
+            return {
+
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#039;"
+
+            }[m];
+
+        }
+    );
+
+}
+
+
+/* =====================================================
+   STATUS
+===================================================== */
+
+function showStatus(
+    text,
+    type
+) {
+
+    const status =
+        $("status");
+
+
+    status.textContent =
+        text;
+
+
+    status.className =
+        "status show mt-2 p-2 rounded text-[11px]";
+
+
+    if (
+        type === "success"
+    ) {
+
+        status.classList.add(
+            "bg-green-100",
+            "text-green-700"
+        );
+
+    }
+
+    else if (
+        type === "error"
+    ) {
+
+        status.classList.add(
+            "bg-red-100",
+            "text-red-700"
+        );
+
+    }
+
+    else {
+
+        status.classList.add(
+            "bg-blue-100",
+            "text-blue-700"
+        );
+
+    }
+
+
+    setTimeout(
+        function() {
+
+            status.className =
+                "status";
+
+        },
+        3000
+    );
+
+}
+
+
+/* =====================================================
+   GET FORM RECORD
+===================================================== */
+
+function getFormRecord() {
+
+    return {
+
+        month:
+            $("month").value,
+
+        cc:
+            $("cc").value,
+
+        metal:
+            $("metal").value,
+
+        tagNo:
+            $("tagNo").value.trim(),
+
+        product:
+            $("product").value,
+
+        empId:
+            $("empId").value.trim(),
+
+        empName:
+            $("empName").value.trim(),
+
+        mgrId:
+            $("mgrId").value.trim(),
+
+        mgrName:
+            $("mgrName").value.trim(),
+
+        grWeight:
+            getWeight(
+                "grWeight"
+            ),
+
+        netWeight:
+            getWeight(
+                "netWeight"
+            ),
+
+        addedAt:
+            new Date().toISOString()
+
+    };
+
+}
+
+
+/* =====================================================
+   VALIDATE RECORD
+===================================================== */
+
+function validateRecord(record) {
+
+    let valid = true;
+
+
+    /* ---------------------------------------------------
+       REMOVE OLD INVALID STATUS
+    --------------------------------------------------- */
+
+    fields.forEach(
+        function(id) {
+
+            $(id)
+                .classList
+                .remove("invalid");
+
+        }
+    );
+
+
+    /* ---------------------------------------------------
+       REQUIRED FIELDS
+    --------------------------------------------------- */
+
+    const required = [
+
+        "month",
+        "cc",
+        "metal",
+        "tagNo",
+        "product",
+        "empId",
+        "empName",
+        "mgrId",
+        "mgrName"
+
+    ];
+
+
+    required.forEach(
+        function(id) {
+
+            if (
+                !$(id).value.trim()
+            ) {
+
+                $(id)
+                    .classList
+                    .add("invalid");
+
+                valid = false;
+
+            }
+
+        }
+    );
+
+
+    /* ---------------------------------------------------
+       EMPLOYEE ID CHECK
+    --------------------------------------------------- */
+
+    if (
+        record.empId &&
+        !findEmployeeById(
+            record.empId
+        )
+    ) {
+
+        $("empId")
+            .classList
+            .add("invalid");
+
+        $("empName")
+            .classList
+            .add("invalid");
+
+        valid = false;
+
+    }
+
+
+    /* ---------------------------------------------------
+       MANAGER ID CHECK
+    --------------------------------------------------- */
+
+    if (
+        record.mgrId &&
+        !findEmployeeById(
+            record.mgrId
+        )
+    ) {
+
+        $("mgrId")
+            .classList
+            .add("invalid");
+
+        $("mgrName")
+            .classList
+            .add("invalid");
+
+        valid = false;
+
+    }
+
+
+    /* ---------------------------------------------------
+       GR WEIGHT
+    --------------------------------------------------- */
+
+    if (
+        record.grWeight !== ""
+    ) {
+
+        const gr =
+            Number(
+                record.grWeight
+            );
+
+
+        if (
+            !Number.isFinite(gr) ||
+            gr < 0
+        ) {
+
+            $("grWeight")
+                .classList
+                .add("invalid");
+
+            valid = false;
+
+        }
+
+    }
+
+
+    /* ---------------------------------------------------
+       NET WEIGHT
+    --------------------------------------------------- */
+
+    if (
+        record.netWeight !== ""
+    ) {
+
+        const net =
+            Number(
+                record.netWeight
+            );
+
+
+        if (
+            !Number.isFinite(net) ||
+            net < 0
+        ) {
+
+            $("netWeight")
+                .classList
+                .add("invalid");
+
+            valid = false;
+
+        }
+
+    }
+
+
+    /* ---------------------------------------------------
+       NET > GR CHECK
+    --------------------------------------------------- */
+
+    if (
+        record.grWeight !== "" &&
+        record.netWeight !== ""
+    ) {
+
+        const gr =
+            Number(
+                record.grWeight
+            );
+
+
+        const net =
+            Number(
+                record.netWeight
+            );
+
+
+        if (
+            Number.isFinite(gr) &&
+            Number.isFinite(net) &&
+            net > gr
+        ) {
+
+            $("netWeight")
+                .classList
+                .add("invalid");
+
+
+            showStatus(
+                "Net Weight cannot be greater than Gr Weight.",
+                "error"
+            );
+
+
+            valid = false;
+
+        }
+
+    }
+
+
+    return valid;
+
+}
+
+
+/* =====================================================
+   ADD / UPDATE RECORD
+===================================================== */
+
+function addRecord() {
+
+    const record =
+        getFormRecord();
+
+
+    if (
+        !validateRecord(
+            record
+        )
+    ) {
+
+        showStatus(
+            "Please enter all required details correctly.",
+            "error"
+        );
+
+        return;
+
+    }
+
+
+    /* ---------------------------------------------------
+       UPDATE EXISTING RECORD
+    --------------------------------------------------- */
+
+    if (
+        editIndex >= 0
+    ) {
+
+        records[editIndex] =
+            record;
+
+
+        editIndex = -1;
+
+
+        $("addBtn").textContent =
+            "ADD";
+
+
+        showStatus(
+            "Record updated successfully.",
+            "success"
+        );
+
+    }
+
+
+    /* ---------------------------------------------------
+       ADD NEW RECORD
+    --------------------------------------------------- */
+
+    else {
+
+        records.push(
+            record
+        );
+
+
+        showStatus(
+            "Record added to the right side.",
+            "success"
+        );
+
+    }
+
+
+    render();
+
+
+    clearForm(false);
+
+}
+
+
+/* =====================================================
+   RENDER TABLE
+===================================================== */
+
+function render() {
+
+    const body =
+        $("recordsBody");
+
+
+    /* ---------------------------------------------------
+       RECORD COUNT
+    --------------------------------------------------- */
+
+    $("count").textContent =
+        records.length +
+        " Record" +
+        (
+            records.length === 1
+                ? ""
+                : "s"
+        );
+
+
+    /* ---------------------------------------------------
+       NO RECORDS
+    --------------------------------------------------- */
+
+    if (
+        !records.length
+    ) {
+
+        body.innerHTML = `
+
+        <tr>
+
+        <td
+        colspan="12"
+        class="text-center py-8 text-gray-400 text-xs"
+        >
+
+        No records added.
+        Enter details on the left and click ADD.
+
+        </td>
+
+        </tr>
+
+        `;
+
+        return;
+
+    }
+
+
+    /* ---------------------------------------------------
+       CREATE TABLE
+    --------------------------------------------------- */
+
+    body.innerHTML =
+        records.map(
+            function(
+                record,
+                index
+            ) {
+
+                return `
+
+                <tr
+                class="${
+                    index % 2 === 0
+                    ? "bg-white"
+                    : "bg-[#faf8f3]"
+                } hover:bg-[#f5f0e5]"
+                >
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.month)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.cc)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.metal)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.tagNo)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.product)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.empId)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.empName)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.mgrId)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.mgrName)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.grWeight)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-[11px] whitespace-nowrap">
+                    ${esc(record.netWeight)}
+                </td>
+
+                <td class="px-2 py-2 border-b text-center whitespace-nowrap">
+
+                    <button
+                    type="button"
+                    title="Edit"
+                    onclick="editRecord(${index})"
+                    class="text-[#b17b12] text-base px-1"
+                    >
+                    ✏️
+                    </button>
+
+                    <button
+                    type="button"
+                    title="Delete"
+                    onclick="deleteRecord(${index})"
+                    class="text-red-700 text-base px-1"
+                    >
+                    🗑️
+                    </button>
+
+                </td>
+
+                </tr>
+
+                `;
+
+            }
+        )
+        .join("");
+
+}
+
+
+/* =====================================================
+   EDIT RECORD
+===================================================== */
+
+function editRecord(index) {
+
+    const record =
+        records[index];
+
+
+    if (
+        !record
+    ) {
+
+        return;
+
+    }
+
+
+    editIndex =
+        index;
+
+
+    $("month").value =
+        record.month || "";
+
+
+    $("cc").value =
+        record.cc || "";
+
+
+    $("metal").value =
+        record.metal || "";
+
+
+    $("tagNo").value =
+        record.tagNo || "";
+
+
+    $("product").value =
+        record.product || "";
+
+
+    $("empId").value =
+        record.empId || "";
+
+
+    $("empName").value =
+        record.empName || "";
+
+
+    $("mgrId").value =
+        record.mgrId || "";
+
+
+    $("mgrName").value =
+        record.mgrName || "";
+
+
+    $("grWeight").value =
+        record.grWeight || "";
+
+
+    $("netWeight").value =
+        record.netWeight || "";
+
+
+    $("addBtn").textContent =
+        "UPDATE";
+
+
+    showStatus(
+        "Edit the details on the left, then click UPDATE.",
+        "success"
+    );
+
+}
+
+
+/* =====================================================
+   DELETE RECORD
+===================================================== */
+
+function deleteRecord(index) {
+
+    if (
+        !records[index]
+    ) {
+
+        return;
+
+    }
+
+
+    const confirmed =
+        confirm(
+            "Are you sure you want to delete this record?"
+        );
+
+
+    if (
+        !confirmed
+    ) {
+
+        return;
+
+    }
+
+
+    records.splice(
+        index,
+        1
+    );
+
+
+    if (
+        editIndex === index
+    ) {
+
+        editIndex = -1;
+
+
+        $("addBtn").textContent =
+            "ADD";
+
+
+        clearForm(false);
+
+    }
+
+    else if (
+        editIndex > index
+    ) {
+
+        editIndex--;
+
+    }
+
+
+    render();
+
+
+    showStatus(
+        "Record deleted successfully.",
+        "success"
+    );
+
+}
+
+
+/* =====================================================
+   CLEAR FORM
+===================================================== */
+/* =====================================================
+   CLEAR
+   MONTH AND CC WILL REMAIN SELECTED
+===================================================== */
+
+function clearForm(
+    showMessage = true
+) {
+
+    /*
+       Save current Month and CC
+       before clearing the other fields.
+    */
+
+    const selectedMonth =
+        $("month").value;
+
+    const selectedCC =
+        $("cc").value;
+
+
+    /*
+       Clear all form fields
+    */
+
+    fields.forEach(
+        function(id) {
+
+            $(id).value = "";
+
+            $(id)
+                .classList
+                .remove("invalid");
+
+        }
+    );
+
+
+    /*
+       Restore Month and CC
+    */
+
+    $("month").value =
+        selectedMonth;
+
+    $("cc").value =
+        selectedCC;
+
+
+    /*
+       Reset edit mode
+    */
+
+    editIndex = -1;
+
+
+    $("addBtn").textContent =
+        "ADD";
+
+
+    /*
+       Remove loading messages
+    */
+
+    $("empLoading")
+        .classList
+        .add("hidden");
+
+    $("mgrLoading")
+        .classList
+        .add("hidden");
+
+
+    /*
+       Optional success message
+    */
+
+    if(showMessage) {
+
+        showStatus(
+            "Input fields cleared. Month and CC remain selected.",
+            "success"
+        );
+
+    }
+
+}
+/* =====================================================
+   SAVE ALL
+===================================================== */
+
+async function saveAll() {
+
+    /* ---------------------------------------------------
+       CHECK RECORDS
+    --------------------------------------------------- */
+
+    if (
+        !records.length
+    ) {
+
+        showStatus(
+            "No records to save.",
+            "error"
+        );
+
+        return;
+
+    }
+
+
+    /* ---------------------------------------------------
+       BUTTON
+    --------------------------------------------------- */
+
+    const saveButton =
+        $("saveAllBtn");
+
+
+    saveButton.disabled =
+        true;
+
+
+    saveButton.textContent =
+        "SAVING...";
+
+
+    showStatus(
+        "Saving all records...",
+        "info"
+    );
+
+
+    try {
+
+        /* -------------------------------------------------
+           SEND TO APPS SCRIPT
+        ------------------------------------------------- */
+
+        const response =
+            await fetch(
+                SPECIAL_TAG_API,
+                {
+
+                    method: "POST",
+
+                    headers: {
+
+                        "Content-Type":
+                            "text/plain;charset=utf-8"
+
+                    },
+
+                    body:
+                        JSON.stringify({
+
+                            action:
+                                "saveAll",
+
+                            records:
+                                records
+
+                        })
+
+                }
+            );
+
+
+        /* -------------------------------------------------
+           HTTP CHECK
+        ------------------------------------------------- */
+
+        if (
+            !response.ok
+        ) {
+
+            throw new Error(
+                "Server error: " +
+                response.status
+            );
+
+        }
+
+
+        /* -------------------------------------------------
+           READ RESPONSE
+        ------------------------------------------------- */
+
+        const data =
+            await response.json();
+
+
+        console.log(
+            "Save response:",
+            data
+        );
+
+
+        /* -------------------------------------------------
+           SERVER ERROR
+        ------------------------------------------------- */
+
+        if (
+            data.success === false
+        ) {
+
+            throw new Error(
+                data.error ||
+                "Save failed."
+            );
+
+        }
+
+
+        /* -------------------------------------------------
+           SUCCESS
+        ------------------------------------------------- */
+
+        showStatus(
+            data.message ||
+            "All records saved successfully.",
+            "success"
+        );
+
+
+        /* -------------------------------------------------
+           CLEAR SAVED RECORDS
+        ------------------------------------------------- */
+
+        records = [];
+
+
+        editIndex = -1;
+
+
+        render();
+
+
+        clearForm(false);
+
+    }
+
+
+    catch(error) {
+
+        console.error(
+            "Save error:",
+            error
+        );
+
+
+        showStatus(
+            error.message ||
+            "Save failed. Check Apps Script deployment and URL.",
+            "error"
+        );
+
+    }
+
+
+    finally {
+
+        saveButton.disabled =
+            false;
+
+
+        saveButton.textContent =
+            "SAVE ALL";
+
+    }
+
+}
+
+
+/* =====================================================
+   ENTER KEY NAVIGATION
+===================================================== */
+
+const formFields =
+    fields.map(
+        function(id) {
+
+            return $(id);
+
+        }
+    );
+
+
+formFields.forEach(
+    function(
+        input,
+        index
+    ) {
+
+        input.addEventListener(
+            "keydown",
+            function(event) {
+
+                if (
+                    event.key === "Enter"
+                ) {
+
+                    event.preventDefault();
+
+
+                    const next =
+                        formFields[
+                            index + 1
+                        ];
+
+
+                    if (
+                        next
+                    ) {
+
+                        next.focus();
+
+                    }
+
+                    else {
+
+                        $("addBtn")
+                            .focus();
+
+                    }
+
+                }
+
+            }
+        );
+
+    }
+);
+
+
+
+/* =========================================================
+   DISABLE RIGHT CLICK / COMMON DEVTOOLS SHORTCUTS
+========================================================= */
+
+(function(){
+
+    document.addEventListener(
+        "contextmenu",
+        function(e){
+
+            e.preventDefault();
+
+        }
+    );
+
+
+    document.addEventListener(
+        "keydown",
+        function(e){
+
+            if(e.key === "F12"){
+
+                e.preventDefault();
+
+                return;
+
+            }
+
+
+            if(
+                e.ctrlKey &&
+                e.shiftKey &&
+                e.key.toLowerCase() === "i"
+            ){
+
+                e.preventDefault();
+
+                return;
+
+            }
+
+
+            if(
+                e.ctrlKey &&
+                e.shiftKey &&
+                e.key.toLowerCase() === "j"
+            ){
+
+                e.preventDefault();
+
+                return;
+
+            }
+
+
+            if(
+                e.ctrlKey &&
+                e.shiftKey &&
+                e.key.toLowerCase() === "c"
+            ){
+
+                e.preventDefault();
+
+                return;
+
+            }
+
+
+            if(
+                e.ctrlKey &&
+                e.key.toLowerCase() === "u"
+            ){
+
+                e.preventDefault();
+
+                return;
+
+            }
+
+        }
+    );
+
+})();
+
+
+/* =====================================================
+   REMOVE INVALID ON INPUT
+===================================================== */
+
+document
+.querySelectorAll(
+    "input, select"
+)
+.forEach(
+    function(input) {
+
+        input.addEventListener(
+            "input",
+            function() {
+
+                if (
+                    this.value.trim()
+                ) {
+
+                    this.classList.remove(
+                        "invalid"
+                    );
+
+                }
+
+            }
+        );
+
+
+        input.addEventListener(
+            "change",
+            function() {
+
+                if (
+                    this.value.trim()
+                ) {
+
+                    this.classList.remove(
+                        "invalid"
+                    );
+
+                }
+
+            }
+        );
+
+    }
+);
+
+
+/* =====================================================
+   START
+===================================================== */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function() {
+
+        loadEmployeeDatabase();
+
+        render();
+
+    }
+);
+
+</script>
+
+</body>
+</html>
